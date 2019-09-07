@@ -48,7 +48,7 @@ void wifi_event_handler_cb(System_Event_t * event) {
 void setup() {
 
   display.init();
-  //display.flipScreenVertically();
+  display.flipScreenVertically();
   display.setFont(ArialMT_Plain_10);
   
   WiFi.mode(WIFI_AP);
